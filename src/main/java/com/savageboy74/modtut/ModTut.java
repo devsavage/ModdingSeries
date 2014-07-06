@@ -1,6 +1,8 @@
 package com.savageboy74.modtut;
 
 import com.savageboy74.modtut.proxy.CommonProxy;
+import com.savageboy74.modtut.registry.BlockRegistry;
+import com.savageboy74.modtut.registry.ItemRegistry;
 import com.savageboy74.modtut.utility.Reference;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -34,6 +36,9 @@ public class ModTut
                 return Item.getItemFromBlock(Blocks.emerald_block);
             }
         };
+
+        ItemRegistry.registerItems();
+        BlockRegistry.registerBlocks();
     }
     
     @EventHandler

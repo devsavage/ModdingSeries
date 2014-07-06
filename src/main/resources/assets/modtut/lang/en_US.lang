@@ -1,6 +1,9 @@
 # Blocks
-
+tile.blockCube.name=Cube
+tile.blockBlock.name=Block
 # Creative Tab
 itemGroup.modTutTab=ModTut Tab
 
 # Items
+item.itemCircle.name=Circle
+item.itemSquare.name=Square
